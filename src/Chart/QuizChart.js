@@ -7,12 +7,12 @@ const QuizChart = () => {
 
     const pieData = [
         {
-            "name": "Correct",
-            "value": 7 //dynamic data
+            name: "Correct",
+            value: 7 //dynamic data
         },
         {
-            "name": "Wrong",
-            "value": 3 //dynamic data
+            name: "Wrong",
+            value: 3 //dynamic data
         },
 
     ];
@@ -22,7 +22,7 @@ const QuizChart = () => {
 
     return (
         <>
-            <div id="chart-container" style={{ textAlign: "center" }}>
+            <div id="chart-container" style={{ textAlign: "center", color: "skyblue" }}>
                 <h1>Your Quiz Result</h1>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <PieChart width={730} height={300}>
