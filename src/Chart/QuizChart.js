@@ -22,7 +22,7 @@ const QuizChart = () => {
 
     return (
         <>
-            <div id="chart-container" style={{ textAlign: "center", color: "skyblue" }}>
+            <div id="chart-container" style={{ textAlign: "center", color: "blue" }}>
                 <h1>Your Quiz Result</h1>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <PieChart width={730} height={300}>
